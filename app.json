@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Bank Sampah Sekolah",
+    "slug": "bank-sampah-sekolah",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "id.sekolah.banksampah", "versionCode": 1 }
+  }
+}
