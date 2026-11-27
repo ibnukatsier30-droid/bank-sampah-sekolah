@@ -1,0 +1,38 @@
+*{box-sizing:border-box}
+html,body{margin:0;background:#E8EFEA;font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:#12261D}
+#app{max-width:430px;min-height:100vh;margin:0 auto;background:#F4F8F5;display:flex;flex-direction:column;position:relative}
+.hd{background:#1F6B4F;color:#fff;padding:22px 20px 18px;display:flex;flex-direction:column;gap:4px}
+.hd .sub{font-size:13px;font-weight:500;color:#D6EBDD;min-height:18px}
+.hd .t{font-size:24px;font-weight:700}
+.back{background:none;border:0;color:#D6EBDD;font:600 14px inherit;font-family:inherit;min-height:44px;padding:0;text-align:left;cursor:pointer;margin-top:-8px}
+.bd{flex:1;padding:16px 20px 90px;display:flex;flex-direction:column;gap:14px}
+.card{background:#fff;border:1px solid #D5E3DA;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.card.g{background:#1F6B4F;border:0;color:#fff}
+.big{font-size:32px;font-weight:700}
+.mut{font-size:14px;color:#4C6458;line-height:1.45}
+.g .mut{color:#D6EBDD}
+.lb{font-size:15px;font-weight:600}
+.row{display:flex;justify-content:space-between;gap:12px;align-items:baseline;font-size:15px}
+.row .r{font-weight:600;text-align:right}
+.row.strike{text-decoration:line-through;color:#4C6458}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:48px;padding:0 16px;flex:1;min-width:64px;border-radius:12px;border:1px solid #D5E3DA;background:#fff;font:600 16px inherit;font-family:inherit;color:#12261D;cursor:pointer}
+.chip.on{background:#1F6B4F;border:2px solid #1F6B4F;color:#fff;font-weight:700}
+.fld{display:flex;flex-direction:column;gap:6px}
+.fld input,.fld textarea{min-height:48px;border-radius:12px;border:1px solid #D5E3DA;background:#fff;padding:0 14px;font:16px inherit;font-family:inherit;color:#12261D}
+.fld textarea{padding:12px 14px;min-height:80px}
+.btn{min-height:52px;border-radius:14px;border:2px solid #1F6B4F;background:#1F6B4F;color:#fff;font:700 16px inherit;font-family:inherit;cursor:pointer;width:100%}
+.btn.o{background:transparent;color:#1F6B4F}
+.btn.t{background:transparent;border-color:transparent;color:#1F6B4F;min-height:44px;font-weight:600}
+.btn.r{background:#B3261E;border-color:#B3261E}
+.btn:disabled{background:#C9D6CE;border-color:#C9D6CE;color:#fff}
+.note{background:#FBEFD2;color:#5B3E00;border-radius:12px;padding:12px;font-size:14px;line-height:1.45}
+.note.ok{background:#E3F1E8;color:#1F4D3A}
+.bar{height:14px;border-radius:7px;background:#E3F1E8;overflow:hidden}.bar i{display:block;height:100%;background:#1F6B4F}
+.tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:#fff;border-top:1px solid #D5E3DA;display:flex;padding:6px 0 10px}
+.tabs button{flex:1;min-height:48px;background:none;border:0;font:500 13px inherit;font-family:inherit;color:#4C6458;cursor:pointer}
+.tabs button.on{color:#1F6B4F;font-weight:700}
+.eye{width:44px;height:44px;border-radius:22px;border:0;background:#E3F1E8;color:#1F6B4F;font:700 13px inherit;font-family:inherit;cursor:pointer}
+.flex{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.sig{display:flex;gap:16px;margin-top:28px}.sig div{flex:1;border-top:1px solid #12261D;padding-top:4px;font-size:13px;color:#4C6458}
+.sec{font-size:15px;font-weight:700;margin-top:4px}
