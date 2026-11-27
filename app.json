@@ -2,9 +2,11 @@
   "expo": {
     "name": "Bank Sampah Sekolah",
     "slug": "bank-sampah-sekolah",
+    "owner": "nuaiids-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "android": { "package": "id.sekolah.banksampah", "versionCode": 1 }
+    "android": { "package": "id.sekolah.banksampah", "versionCode": 1 },
+    "extra": { "eas": { "projectId": "eb201ff4-d88a-47aa-a459-40ea2c7a8201" } }
   }
 }
